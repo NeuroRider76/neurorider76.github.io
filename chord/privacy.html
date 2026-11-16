@@ -13,39 +13,63 @@
 </head>
 <body>
 <h1>Privacy policy</h1>
-<p>Last updated: 25 October 2026. Applies to the Chord iOS app and its backend ("Chord", "we").</p>
+<p>Last updated: 16 November 2026. Applies to the Chord iOS app and its backend ("Chord", "we").</p>
+<p>Short version: Chord keeps what it needs to write your posts, nothing more. No ads, no tracking, no selling. You can delete everything from the app.</p>
 
 <h2>What we collect</h2>
 <ul>
-  <li><strong>Sign in with Apple identifier.</strong> A random ID Apple gives us so we know it is you. We do not receive your name or email unless you choose to share them.</li>
+  <li><strong>Sign in with Apple identifier.</strong> A random ID Apple gives us so we know it is you. We do not store your name or email.</li>
   <li><strong>Voice recordings.</strong> Sent to our server only to be transcribed. The audio is deleted right after transcription and is never stored.</li>
-  <li><strong>Transcripts and generated text.</strong> Kept so you can see, edit and reuse your drafts and notes. You can ask us to delete them at any time.</li>
+  <li><strong>Text you share into Chord.</strong> Text or a link you send from the Share Sheet, handled like a transcript.</li>
+  <li><strong>Transcripts and generated posts.</strong> Kept on our server so you can come back to them, until you delete your account.</li>
+  <li><strong>Voice samples.</strong> The 3 to 5 of your own posts you paste to set your voice. Used only to write your posts in your style. You can remove them at any time in Settings.</li>
+  <li><strong>Usage records.</strong> For each request: when it happened, which service handled it, how much audio or text it used, and what it cost. Used to apply the daily limit and keep the service affordable.</li>
 </ul>
 
 <h2>How we use it</h2>
-<p>Only to provide the app: transcribe what you said, turn it into a post or a note, and deliver it where you asked. No advertising, no profiling, no selling or sharing of your data.</p>
+<p>Only to provide the app: transcribe what you said, write it up as a post in your voice, and apply usage limits. No advertising, no profiling, no tracking across apps or websites, no selling or sharing of your data.</p>
 
-<h2>Service providers</h2>
-<p>We use these processors to run the app, under their own data protection terms: Railway (hosting and database), Groq and OpenAI (speech-to-text), Anthropic (text formatting). They receive only what is needed for that step.</p>
+<h2>AI services</h2>
+<p>Before your first recording, the app asks your permission to send your data to these services:</p>
+<ul>
+  <li><strong>Groq</strong> or <strong>OpenAI</strong> turn your recording into text. OpenAI is the fallback when Groq is unavailable.</li>
+  <li><strong>Anthropic</strong> (Claude) writes the post from your transcript and your voice samples.</li>
+</ul>
+<p>We use their business APIs. Each receives only what its step needs. Some of them process data in the United States.</p>
 
-<h2>Google Drive</h2>
-<p>If you connect Google Drive, Chord uses that access only to create note files in the folder of your Obsidian vault you chose. It does not read, change or delete your other files, and never shares Drive data with anyone.</p>
-<p>Chord's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Other service providers</h2>
+<p>Railway hosts our server and database in the EU. Apple handles sign-in.</p>
 
 <h2>Posting to X</h2>
-<p>Chord does not connect to your X account. It opens X's own compose screen with your text filled in; you decide whether to post.</p>
+<p>Chord does not connect to your X account. It opens X's own compose screen with your text filled in. You decide whether to post.</p>
 
-<h2>Retention and deletion</h2>
-<p>Audio: deleted immediately after transcription. Transcripts, drafts and notes: kept until you delete them or ask us to. Email im.alessiocongia@gmail.com and we will delete your account data within 30 days. Notes already written to your Drive stay yours.</p>
+<h2>Usage limits</h2>
+<p>Chord is free. Each account can make 10 posts per day. If total costs reach our monthly budget, new posts pause until the next month. Your existing data is not affected.</p>
+
+<h2>Deleting your account</h2>
+<p>In the app, open Settings and tap Delete account, then confirm with Apple. This:</p>
+<ul>
+  <li>deletes your account, transcripts, posts, voice samples and sign-in sessions from our server, right away;</li>
+  <li>revokes Chord's access to your Apple ID through Apple;</li>
+  <li>deletes memos still waiting to be sent on your phone.</li>
+</ul>
+<p>Usage records are kept for cost accounting, with the link to you removed, so they no longer identify you. Posts you already published on X stay on X.</p>
+<p>You can also email im.alessiocongia@gmail.com and we will delete your data within 30 days.</p>
+
+<h2>Your rights</h2>
+<p>You can ask to access, correct, export or delete your data, or object to how we use it. Email us and we will answer within 30 days. You can also complain to your data protection authority.</p>
 
 <h2>Security</h2>
-<p>Every request to our server is authenticated. Data travels over HTTPS. Access tokens are short-lived and stored in the iOS Keychain.</p>
+<p>Every request to our server is authenticated. Data travels over HTTPS. Access tokens are short-lived and stored in the iOS Keychain. Server secrets live only in environment settings, never in code.</p>
+
+<h2>Note mode</h2>
+<p>Chord also has a note mode that files brain dumps into an Obsidian vault in Google Drive. It is available only to the developer's own account, not to public users. Chord's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 
 <h2>Children</h2>
-<p>Chord is not directed at children under 13.</p>
+<p>Chord is not directed at children under 13, and we do not knowingly collect their data.</p>
 
 <h2>Changes and contact</h2>
-<p>We will update this page if anything changes. Questions: im.alessiocongia@gmail.com</p>
+<p>We will update this page if anything changes, and change the date at the top. Questions: im.alessiocongia@gmail.com</p>
 <p><a href="index.html">Back to Chord</a></p>
 </body>
 </html>
